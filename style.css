@@ -1,0 +1,156 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f1bb4e;
+    color:#e45f17;
+    /* background-color: #6d597a; */
+}
+
+
+.nav-text{
+    color: #8f1515;
+    font-family: 'Roboto', sans-serif;
+}
+/* splash screen css starts here  */
+#loading{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: #75dbe2 url("https://media.giphy.com/media/y1ZBcOGOOtlpC/giphy.gif") no-repeat center center;
+    z-index: 99999;
+}
+/* splash screen css ends here  */
+
+/* navbar css starts here  */
+.bg-light{
+    background-color: #528aaa!important;
+}
+
+.navbar-brand{
+    font-family: 'DynaPuff', cursive;
+    /* font-family: 'Times New Roman', Times, serif; */
+
+    font-size: 1.5rem;
+    color: #1f2020!important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.nav-link{margin: 5px;
+    color: rgb(194, 192, 177)!important;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ #nl1,.nav-link:hover{border-radius: 7px!important;
+    background-color: rgb(4, 94, 94);
+}
+/* navbar css ends here  */
+
+/* here content css starts here  */
+.hero-content{
+    height: 100vh;
+    background-color: #b11919e1;
+    color: #ffffff;
+    padding: 3rem;
+    border-bottom-left-radius: 45rem;
+    border-top-right-radius: 45rem;
+    border-bottom-right-radius: 45rem ;
+    border-top-left-radius: 45rem;
+    margin-bottom: 1vh;
+}
+
+.hero-img{
+    height: 60vh;
+    width: 100%;
+}
+
+.navebar-toggler-icon, .navbar-toggler, .collapsed{
+    color:#8b6651;
+    background-color: #db35c0;
+}
+.collapsed:hover{
+    color:#bd561f;
+    background-color: #f2e9e4;
+}
+
+@media only screen and (max-width: 766px) {
+    .hero-img {
+      display: none;
+    }
+}
+
+.get-started{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #18e9cd;
+    color: #d34fab!important;
+    transition: 0.3s;
+}
+
+.get-started:hover{
+    text-decoration: none;
+    background-color: #39a9f3e1;
+    
+}
+/* here content css starts here  */
+
+/* get-started-buttons css starts here*/
+.get-started-content{
+    height: 60vh;
+    background-color: #ff8a65;
+    border-top-left-radius: 42rem;
+    border-top-right-radius: 42rem;
+    border-bottom-right-radius: 42rem;
+    border-bottom-left-radius: 42rem;
+}
+
+.get-started-content .row{
+    padding: 25vh 0;
+}
+
+.get-started-content a{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #5071dd;
+    color: #8a5858!important;
+    transition: 0.3s;
+}
+
+.get-started-content a:hover{
+    background-color: #c93757;
+    text-decoration: none;
+}
+/* get-started-buttons css end here*/
+
+/* footer css starts here */
+footer{
+    background-color:  rgb(65, 164, 189);
+}
+
+.social-icons li{
+    list-style: none;
+    display: inline;
+    padding: 0.5rem;
+}
+
+.github{
+    color: #fdfdfd;
+}
+
+.linkedin{
+    color: #0ba8fd;
+}
+
+.google{
+    color: #e64c60;
+}
+.portfolio{
+    color: #ffffff;
+    
+}
+/* footer css ends here  */
