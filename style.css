@@ -50,7 +50,8 @@ body{
 /* navbar css ends here  */
 
 /* here content css starts here  */
-.hero-content{
+.hero-content
+{
     height: 100vh;
     background-color: #b11919e1;
     color: #ffffff;
@@ -62,7 +63,8 @@ body{
     margin-bottom: 1vh;
 }
 
-.hero-img{
+.hero-img
+{
     height: 60vh;
     width: 100%;
 }
@@ -77,9 +79,7 @@ body{
 }
 
 @media only screen and (max-width: 766px) {
-    .hero-img {
-      display: none;
-    }
+
 }
 
 .get-started{
